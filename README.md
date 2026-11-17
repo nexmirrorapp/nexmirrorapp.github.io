@@ -8,10 +8,7 @@
 | `index.html`, `style.css`, `assets/` | Website (GitHub Pages, repo root se) |
 
 ## Naya version publish karna
-GitHub -> **Releases** -> **Draft a new release** -> tag (jaise `v3.0`) -> files upload karein:
-- `NexMirror.exe` (Windows)
-- `NexMirror.apk` (jab Android app tayyar ho - upload hote hi website ka Android button khud ON ho jata hai)
-
-Website ke download buttons hamesha `releases/latest/download/...` par jate hain, is liye site badalne ki zarurat nahi.
+- Windows: `download/NexMirror.exe` ko nayi file se replace karein (aur `index.html` mein version text).
+- Android: GitHub -> **Releases** -> nayi release mein `NexMirror.apk` upload karein - website ka Android button khud ON ho jata hai.
 
 Engine: [scrcpy](https://github.com/Genymobile/scrcpy) (Apache 2.0).
